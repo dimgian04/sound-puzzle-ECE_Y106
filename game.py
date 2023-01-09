@@ -179,7 +179,7 @@ def game():
                 elif event.type == pygame.MOUSEMOTION and selected is True:
                     start_rects_list[start_rect_var].x = event.pos[0] + selected_offset_x
                     start_rects_list[start_rect_var].y = event.pos[1] + selected_offset_y
-                for i in range(s):  # cycle ta lock rects
+                for i in range(s):  # Cycle Lock Rects
                     if lock_rects[i].x - rects_size < start_rects_list[j].x < lock_rects[i].x + rects_size and lock_rects[i].y - rects_size < start_rects_list[j].y < lock_rects[i].y + rects_size and selected is False:  # Η εντολή colliderect που ελέγχει colission μεταξύ δύο rectangles δεν δούλευε και έπρεπε να φτιαχτούν οι ανισώσεις ελέγχου.
                         start_rects_list[j].x = lock_rects[i].x
                         start_rects_list[j].y = lock_rects[i].y
