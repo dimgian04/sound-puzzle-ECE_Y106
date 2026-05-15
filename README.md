@@ -2,7 +2,7 @@
 
 An educational audio-visual puzzle game for Greek-speaking children, built with Pygame.
 
-> Implemented as a project for the course **"Introduction to Computers"** (ECE_Y106).
+> This project was implemented as part of the course **"Introduction to Computers" (ECE_Y106)** during the academic year 2022–2023.
 
 ---
 
